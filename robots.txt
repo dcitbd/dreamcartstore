@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Allow: /public/icon/
+Allow: /products
+Allow: /product/
+Allow: /categories
+Allow: /brands
+Allow: /offers
+Allow: /sitemap.php
+Allow: /sitemap.xml
+Disallow: /admin/
+Disallow: /admin
+Disallow: /apps-script/
+
+User-agent: python-requests
+Disallow: /
+
+User-agent: urllib
+Disallow: /
+
+User-agent: scrapy
+Disallow: /
+
+User-agent: sqlmap
+Disallow: /
+
+User-agent: nikto
+Disallow: /
+
+# Sitemap & Ad Product Feed
+Sitemap: https://dreamcartbd.com/sitemap.xml
